@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+body {
+    height: 100vh;
+    background-color: blue;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+body h1{
+    position: absolute;
+    top: 5rem;
+    color: white;
+    background-color: rgb(78, 78, 196);
+    padding: .5rem;
+    border-radius: .5rem;
+   
+}
+
+
+.container {
+    
+    height: 50vh;
+    width: 34vw;
+    background-color: white;
+    padding: 1.5rem 1rem;
+    border-radius: 0.76rem;
+    overflow: auto;
+    z-index: 10;
+    scroll-behavior: smooth;
+
+
+}
+
+.add {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    position: sticky;
+    top: 0;
+   
+   
+   
+}
+
+.add input {
+    height: 2rem;
+    border-radius: 0.5rem;
+    border-color: aqua;
+    outline: none;
+    width: 16rem;
+    padding: 0.3rem 0.85rem;
+    font-size: 1rem;
+    margin-right: 1rem;
+}
+
+.add button {
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: .5rem;
+    padding: 0.6rem 1.5rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.list {
+    display: flex;
+
+    align-items: center;
+    margin-bottom: 1rem;
+    border: 2px solid rgb(181, 179, 179);
+    border-radius: .4rem;
+    min-height: 1rem;
+    padding: 0.7rem .24rem;
+    background-color: #CDE8EC;
+    justify-content: space-between;
+}
+
+.list .delIcon {
+    background-color: blue;
+    padding: .5rem;
+    border-radius: .3rem;
+    cursor: pointer;
+}
